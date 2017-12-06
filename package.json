@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "zeppelin-solidity": "^1.3.0"
+  },
+  "devDependencies": {
+    "truffle-hdwallet-provider": "0.0.3"
   }
 }
