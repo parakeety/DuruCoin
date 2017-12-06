@@ -5,7 +5,7 @@ import "zeppelin-solidity/contracts/token/StandardToken.sol";
 contract DuruCoin is StandardToken {
   string public name = "DuruCoin";
   string public symbol = "DURU";
-  uint public INITIAL_SUPPLY = 10;
+  uint public decimals = 32;
 
   function DuruCoin() {
     totalSupply = INITIAL_SUPPLY;
