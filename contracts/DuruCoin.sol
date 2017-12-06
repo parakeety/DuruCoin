@@ -6,6 +6,7 @@ contract DuruCoin is StandardToken {
   string public name = "DuruCoin";
   string public symbol = "DURU";
   uint public decimals = 32;
+  uint public INITIAL_SUPPLY = 100e18;
 
   function DuruCoin() {
     totalSupply = INITIAL_SUPPLY;
